@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   
+    <item
+        android:id="@+id/action_laugh"
+        android:icon="@drawable/laugh"
+        android:showAsAction="always"
+    />
+      <item
+        android:id="@+id/action_romantic"
+        android:icon="@drawable/heart"
+        android:showAsAction="always"
+      />
+    <item
+        android:id="@+id/action_sad"
+        android:icon="@drawable/cry"
+        android:showAsAction="always"
+    />
+    <item
+        android:id="@+id/action_angry"
+        android:icon="@drawable/angry"
+        android:showAsAction="always"
+    />
+     <item
+        android:id="@+id/action_tired"
+        android:icon="@drawable/tired"
+        android:showAsAction="always"
+    />
+ 
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <ImageView
+        android:id="@+id/new_event_pic"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:src ="@drawable/face" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/new_event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@id/new_event_pic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+    
+    <TextView
+        android:id="@+id/new_event_time"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@id/new_event_pic"
+        android:layout_below="@id/new_event_location"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/new_event_detail"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/new_event_pic"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+    />
+
+</RelativeLayout>
