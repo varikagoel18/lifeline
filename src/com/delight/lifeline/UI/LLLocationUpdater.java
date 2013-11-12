@@ -138,7 +138,7 @@ public class LLLocationUpdater implements LocationListener {
     					Address address = addrList.get(0);
     					
     					 addressText = addressText + ((address.getMaxAddressLineIndex() > 0) ? address.getAddressLine(0):"") +
-    	                            address.getLocality() +address.getCountryName() ;
+    	                            address.getLocality() ;
     				}
 
     			} catch (IOException e) {
